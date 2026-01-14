@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Heart, PawPrint, Home, Users, ArrowRight, Menu, X, CheckCircle, Mail, Phone, MapPin, Instagram, Facebook, Twitter } from 'lucide-react';
+import { Heart, Footprints, Home, Users, ArrowRight, Menu, X, CheckCircle, Mail, Phone, MapPin, Instagram, Facebook, Twitter } from 'lucide-react';
 
 const LandingPage = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -15,7 +15,7 @@ const LandingPage = () => {
     {
       title: 'Rescue & Rehabilitation',
       description: 'We rescue animals from dangerous situations and provide medical care and love.',
-      icon: <PawPrint className="w-8 h-8 text-orange-500" />,
+      icon: <Footprints className="w-8 h-8 text-orange-500" />,
     },
     {
       title: 'Adoption Program',
@@ -43,7 +43,7 @@ const LandingPage = () => {
           <div className="flex justify-between h-20 items-center">
             <div className="flex items-center gap-2">
               <div className="bg-orange-500 p-2 rounded-lg">
-                <PawPrint className="text-white w-6 h-6" />
+                <Footprints className="text-white w-6 h-6" />
               </div>
               <span className="text-2xl font-bold tracking-tight text-stone-800">PawsHope</span>
             </div>
@@ -231,7 +231,7 @@ const LandingPage = () => {
             <div className="col-span-1 md:col-span-1 space-y-6">
               <div className="flex items-center gap-2">
                 <div className="bg-orange-500 p-2 rounded-lg">
-                  <PawPrint className="text-white w-6 h-6" />
+                  <Footprints className="text-white w-6 h-6" />
                 </div>
                 <span className="text-2xl font-bold tracking-tight">PawsHope</span>
               </div>
